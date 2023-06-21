@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="container">
-        <form class="ms-auto me-auto" style="width: 500px" >
+        <form action="{{route('"login.post')}}" method="POST"class="ms-auto me-auto" style="width: 500px" >
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email Address</label>
                 <input type="email" class="form-control" name="email">
