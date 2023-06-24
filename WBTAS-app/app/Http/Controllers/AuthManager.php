@@ -19,7 +19,7 @@ class AuthManager extends Controller
         'email' => 'required',
         'password' => 'required'
 
-        ])
+        ]);
     }
 
 }
